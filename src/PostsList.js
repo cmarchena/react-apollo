@@ -1,6 +1,8 @@
 import React from 'react';
 import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
+import CrudControls from './components/CrudControls';
+import Modal from './components/Modal';
 
 const GET_POSTS = gql`
   {
@@ -22,8 +24,11 @@ const PostsList = () => {
 
         return posts.map(post => (
           <div key={post.id}>
-            <h3>{post.title}</h3>
-            <p>{post.text}</p>
+            <div>
+              <h3> {post.title} </h3> <p> {post.text} </p>
+            </div>
+
+            <CrudControls />
           </div>
         ));
       }}
