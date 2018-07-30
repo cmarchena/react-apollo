@@ -13,3 +13,7 @@ End of Get Started Section
 [x] Deployed to [Now](https://build-fwzkodlpst.now.sh/)
 
 ##Mutations
+[x] The Mutation Component
+
+[x] Respository created and pushed to github
+[x] App deployed to Now

@@ -39,7 +39,7 @@ export default class CreatePost extends Component {
                 createPost({
                   variables: { title: this.state.title, text: this.state.text }
                 });
-                console.log('Post Created');
+                console.log('Post Created!cd buil');
               }}
             >
               <label htmlFor="title">Title</label>
